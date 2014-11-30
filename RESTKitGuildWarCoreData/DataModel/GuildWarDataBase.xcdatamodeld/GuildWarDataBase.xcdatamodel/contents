@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AttributeRK" representedClassName="AttributeRK" syncable="YES">
+        <attribute name="attributeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="infixUpgrade" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InfixUpgradeRK" inverseName="attributes" inverseEntity="InfixUpgradeRK" syncable="YES"/>
+    </entity>
+    <entity name="InfixUpgradeRK" representedClassName="InfixUpgradeRK" syncable="YES">
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AttributeRK" inverseName="infixUpgrade" inverseEntity="AttributeRK" syncable="YES"/>
+        <relationship name="weapon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WeaponRK" inverseName="infixUpgrade" inverseEntity="WeaponRK" syncable="YES"/>
+    </entity>
+    <entity name="ItemRK" representedClassName="ItemRK" syncable="YES">
+        <attribute name="defaultScin" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="flags" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="gameTypes" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="iconFileId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="iconFileSignature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rarity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restrictions" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="weapon" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WeaponRK" inverseName="item" inverseEntity="WeaponRK" syncable="YES"/>
+    </entity>
+    <entity name="WeaponRK" representedClassName="WeaponRK" syncable="YES">
+        <attribute name="damageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defence" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="infusionSlots" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="maxPowerValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="minPowerValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="secondarySuffixItemId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="suffixitemId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="infixUpgrade" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InfixUpgradeRK" inverseName="weapon" inverseEntity="InfixUpgradeRK" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ItemRK" inverseName="weapon" inverseEntity="ItemRK" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AttributeRK" positionX="-27" positionY="18" width="128" height="88"/>
+        <element name="InfixUpgradeRK" positionX="18" positionY="81" width="128" height="73"/>
+        <element name="ItemRK" positionX="18" positionY="135" width="128" height="253"/>
+        <element name="WeaponRK" positionX="54" positionY="108" width="128" height="210"/>
+    </elements>
+</model>

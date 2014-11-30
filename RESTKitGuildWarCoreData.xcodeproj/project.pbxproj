@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		879D4AFC75BEF0075F3148CF /* libPods-RESTKitGuildWarCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FAD9C3A39A173A79B615B1 /* libPods-RESTKitGuildWarCoreData.a */; };
+		EDB516F71A2B58B300AD987A /* ItemRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB516F61A2B58B300AD987A /* ItemRK.m */; };
+		EDB516FA1A2B58DE00AD987A /* WeaponRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB516F91A2B58DE00AD987A /* WeaponRK.m */; };
 		EDC473E71A2B00C900FD1B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC473E61A2B00C900FD1B73 /* Foundation.framework */; };
 		EDC473E91A2B00C900FD1B73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC473E81A2B00C900FD1B73 /* CoreGraphics.framework */; };
 		EDC473EB1A2B00C900FD1B73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC473EA1A2B00C900FD1B73 /* UIKit.framework */; };
@@ -14,13 +17,20 @@
 		EDC473F31A2B00CA00FD1B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC473F21A2B00CA00FD1B73 /* main.m */; };
 		EDC473F71A2B00CA00FD1B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC473F61A2B00CA00FD1B73 /* AppDelegate.m */; };
 		EDC473FA1A2B00CA00FD1B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC473F81A2B00CA00FD1B73 /* Main.storyboard */; };
-		EDC473FD1A2B00CA00FD1B73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC473FC1A2B00CA00FD1B73 /* ViewController.m */; };
 		EDC473FF1A2B00CA00FD1B73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC473FE1A2B00CA00FD1B73 /* Images.xcassets */; };
 		EDC474061A2B00CB00FD1B73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC474051A2B00CB00FD1B73 /* XCTest.framework */; };
 		EDC474071A2B00CB00FD1B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC473E61A2B00C900FD1B73 /* Foundation.framework */; };
 		EDC474081A2B00CB00FD1B73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC473EA1A2B00C900FD1B73 /* UIKit.framework */; };
 		EDC474101A2B00CB00FD1B73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC4740E1A2B00CB00FD1B73 /* InfoPlist.strings */; };
 		EDC474121A2B00CB00FD1B73 /* RESTKitGuildWarCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC474111A2B00CB00FD1B73 /* RESTKitGuildWarCoreDataTests.m */; };
+		EDC4742A1A2B029A00FD1B73 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC474291A2B029A00FD1B73 /* MainViewController.m */; };
+		EDC4742E1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDC4742C1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodeld */; };
+		EDC474321A2B02DA00FD1B73 /* AttributeRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC474311A2B02DA00FD1B73 /* AttributeRK.m */; };
+		EDC474381A2B02DC00FD1B73 /* InfixUpgradeRK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC474371A2B02DC00FD1B73 /* InfixUpgradeRK.m */; };
+		EDC4743E1A2B030000FD1B73 /* RKBaseObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC4743D1A2B030000FD1B73 /* RKBaseObjectManager.m */; };
+		EDC474411A2B06B500FD1B73 /* MappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC474401A2B06B500FD1B73 /* MappingProvider.m */; };
+		EDC474461A2B079500FD1B73 /* BaseObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC474451A2B079500FD1B73 /* BaseObjectManager.m */; };
+		EDC4744A1A2B3C2900FD1B73 /* ResponseDescriptorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC474491A2B3C2900FD1B73 /* ResponseDescriptorProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24FAD9C3A39A173A79B615B1 /* libPods-RESTKitGuildWarCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RESTKitGuildWarCoreData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AEAAA3D85CE1A199A55CF2 /* Pods-RESTKitGuildWarCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESTKitGuildWarCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESTKitGuildWarCoreData/Pods-RESTKitGuildWarCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		BA06E184E92B104B1A1D56D8 /* Pods-RESTKitGuildWarCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESTKitGuildWarCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESTKitGuildWarCoreData/Pods-RESTKitGuildWarCoreData.release.xcconfig"; sourceTree = "<group>"; };
+		EDB516F51A2B58B300AD987A /* ItemRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemRK.h; sourceTree = "<group>"; };
+		EDB516F61A2B58B300AD987A /* ItemRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemRK.m; sourceTree = "<group>"; };
+		EDB516F81A2B58DE00AD987A /* WeaponRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponRK.h; sourceTree = "<group>"; };
+		EDB516F91A2B58DE00AD987A /* WeaponRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponRK.m; sourceTree = "<group>"; };
 		EDC473E31A2B00C900FD1B73 /* RESTKitGuildWarCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTKitGuildWarCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC473E61A2B00C900FD1B73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EDC473E81A2B00C900FD1B73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +62,28 @@
 		EDC473F51A2B00CA00FD1B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDC473F61A2B00CA00FD1B73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EDC473F91A2B00CA00FD1B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDC473FB1A2B00CA00FD1B73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDC473FC1A2B00CA00FD1B73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EDC473FE1A2B00CA00FD1B73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EDC474041A2B00CB00FD1B73 /* RESTKitGuildWarCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESTKitGuildWarCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC474051A2B00CB00FD1B73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EDC4740D1A2B00CB00FD1B73 /* RESTKitGuildWarCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RESTKitGuildWarCoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		EDC4740F1A2B00CB00FD1B73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EDC474111A2B00CB00FD1B73 /* RESTKitGuildWarCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESTKitGuildWarCoreDataTests.m; sourceTree = "<group>"; };
+		EDC474221A2B021200FD1B73 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EDC474281A2B029A00FD1B73 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EDC474291A2B029A00FD1B73 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EDC4742D1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuildWarDataBase.xcdatamodel; sourceTree = "<group>"; };
+		EDC474301A2B02DA00FD1B73 /* AttributeRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeRK.h; sourceTree = "<group>"; };
+		EDC474311A2B02DA00FD1B73 /* AttributeRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeRK.m; sourceTree = "<group>"; };
+		EDC474361A2B02DC00FD1B73 /* InfixUpgradeRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixUpgradeRK.h; sourceTree = "<group>"; };
+		EDC474371A2B02DC00FD1B73 /* InfixUpgradeRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfixUpgradeRK.m; sourceTree = "<group>"; };
+		EDC4743C1A2B030000FD1B73 /* RKBaseObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKBaseObjectManager.h; sourceTree = "<group>"; };
+		EDC4743D1A2B030000FD1B73 /* RKBaseObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKBaseObjectManager.m; sourceTree = "<group>"; };
+		EDC4743F1A2B06B500FD1B73 /* MappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
+		EDC474401A2B06B500FD1B73 /* MappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MappingProvider.m; sourceTree = "<group>"; };
+		EDC474441A2B079500FD1B73 /* BaseObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseObjectManager.h; sourceTree = "<group>"; };
+		EDC474451A2B079500FD1B73 /* BaseObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseObjectManager.m; sourceTree = "<group>"; };
+		EDC474481A2B3C2900FD1B73 /* ResponseDescriptorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseDescriptorProvider.h; sourceTree = "<group>"; };
+		EDC474491A2B3C2900FD1B73 /* ResponseDescriptorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseDescriptorProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +94,7 @@
 				EDC473E91A2B00C900FD1B73 /* CoreGraphics.framework in Frameworks */,
 				EDC473EB1A2B00C900FD1B73 /* UIKit.framework in Frameworks */,
 				EDC473E71A2B00C900FD1B73 /* Foundation.framework in Frameworks */,
+				879D4AFC75BEF0075F3148CF /* libPods-RESTKitGuildWarCoreData.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E9D9BB7821E1430CAD4A849 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81AEAAA3D85CE1A199A55CF2 /* Pods-RESTKitGuildWarCoreData.debug.xcconfig */,
+				BA06E184E92B104B1A1D56D8 /* Pods-RESTKitGuildWarCoreData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDC473DA1A2B00C900FD1B73 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +127,7 @@
 				EDC4740B1A2B00CB00FD1B73 /* RESTKitGuildWarCoreDataTests */,
 				EDC473E51A2B00C900FD1B73 /* Frameworks */,
 				EDC473E41A2B00C900FD1B73 /* Products */,
+				0E9D9BB7821E1430CAD4A849 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +147,7 @@
 				EDC473E81A2B00C900FD1B73 /* CoreGraphics.framework */,
 				EDC473EA1A2B00C900FD1B73 /* UIKit.framework */,
 				EDC474051A2B00CB00FD1B73 /* XCTest.framework */,
+				24FAD9C3A39A173A79B615B1 /* libPods-RESTKitGuildWarCoreData.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +155,13 @@
 		EDC473EC1A2B00CA00FD1B73 /* RESTKitGuildWarCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				EDC4742F1A2B02C600FD1B73 /* Entities */,
+				EDC4742B1A2B02B500FD1B73 /* DataModel */,
+				EDC4741F1A2B01E100FD1B73 /* Managers */,
+				EDC4741B1A2B01A400FD1B73 /* Classes */,
 				EDC473F51A2B00CA00FD1B73 /* AppDelegate.h */,
 				EDC473F61A2B00CA00FD1B73 /* AppDelegate.m */,
 				EDC473F81A2B00CA00FD1B73 /* Main.storyboard */,
-				EDC473FB1A2B00CA00FD1B73 /* ViewController.h */,
-				EDC473FC1A2B00CA00FD1B73 /* ViewController.m */,
 				EDC473FE1A2B00CA00FD1B73 /* Images.xcassets */,
 				EDC473ED1A2B00CA00FD1B73 /* Supporting Files */,
 			);
@@ -126,6 +171,7 @@
 		EDC473ED1A2B00CA00FD1B73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EDC474211A2B020200FD1B73 /* Constants */,
 				EDC473EE1A2B00CA00FD1B73 /* RESTKitGuildWarCoreData-Info.plist */,
 				EDC473EF1A2B00CA00FD1B73 /* InfoPlist.strings */,
 				EDC473F21A2B00CA00FD1B73 /* main.m */,
@@ -152,6 +198,125 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EDC4741B1A2B01A400FD1B73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4741D1A2B01C200FD1B73 /* RestKit */,
+				EDC4741C1A2B01B500FD1B73 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EDC4741C1A2B01B500FD1B73 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474271A2B029A00FD1B73 /* MainVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDC4741D1A2B01C200FD1B73 /* RestKit */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474471A2B3C1500FD1B73 /* ResponseDescriptorProvider */,
+				EDC4741E1A2B01CD00FD1B73 /* Mapping */,
+			);
+			path = RestKit;
+			sourceTree = "<group>";
+		};
+		EDC4741E1A2B01CD00FD1B73 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4743F1A2B06B500FD1B73 /* MappingProvider.h */,
+				EDC474401A2B06B500FD1B73 /* MappingProvider.m */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		EDC4741F1A2B01E100FD1B73 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474201A2B01F300FD1B73 /* RestKitManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EDC474201A2B01F300FD1B73 /* RestKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474421A2B077C00FD1B73 /* EntityManagers */,
+				EDC4743C1A2B030000FD1B73 /* RKBaseObjectManager.h */,
+				EDC4743D1A2B030000FD1B73 /* RKBaseObjectManager.m */,
+			);
+			path = RestKitManager;
+			sourceTree = "<group>";
+		};
+		EDC474211A2B020200FD1B73 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474221A2B021200FD1B73 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EDC474271A2B029A00FD1B73 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474281A2B029A00FD1B73 /* MainViewController.h */,
+				EDC474291A2B029A00FD1B73 /* MainViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		EDC4742B1A2B02B500FD1B73 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDC4742C1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		EDC4742F1A2B02C600FD1B73 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474361A2B02DC00FD1B73 /* InfixUpgradeRK.h */,
+				EDC474371A2B02DC00FD1B73 /* InfixUpgradeRK.m */,
+				EDC474301A2B02DA00FD1B73 /* AttributeRK.h */,
+				EDC474311A2B02DA00FD1B73 /* AttributeRK.m */,
+				EDB516F51A2B58B300AD987A /* ItemRK.h */,
+				EDB516F61A2B58B300AD987A /* ItemRK.m */,
+				EDB516F81A2B58DE00AD987A /* WeaponRK.h */,
+				EDB516F91A2B58DE00AD987A /* WeaponRK.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EDC474421A2B077C00FD1B73 /* EntityManagers */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474431A2B078600FD1B73 /* ItemManager */,
+			);
+			path = EntityManagers;
+			sourceTree = "<group>";
+		};
+		EDC474431A2B078600FD1B73 /* ItemManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474441A2B079500FD1B73 /* BaseObjectManager.h */,
+				EDC474451A2B079500FD1B73 /* BaseObjectManager.m */,
+			);
+			path = ItemManager;
+			sourceTree = "<group>";
+		};
+		EDC474471A2B3C1500FD1B73 /* ResponseDescriptorProvider */ = {
+			isa = PBXGroup;
+			children = (
+				EDC474481A2B3C2900FD1B73 /* ResponseDescriptorProvider.h */,
+				EDC474491A2B3C2900FD1B73 /* ResponseDescriptorProvider.m */,
+			);
+			path = ResponseDescriptorProvider;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDC474151A2B00CB00FD1B73 /* Build configuration list for PBXNativeTarget "RESTKitGuildWarCoreData" */;
 			buildPhases = (
+				0BACA1B8F6C1F0578AA518D1 /* Check Pods Manifest.lock */,
 				EDC473DF1A2B00C900FD1B73 /* Sources */,
 				EDC473E01A2B00C900FD1B73 /* Frameworks */,
 				EDC473E11A2B00C900FD1B73 /* Resources */,
+				9DFC8BBFB9D8AA037C60A8FC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,13 +411,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BACA1B8F6C1F0578AA518D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DFC8BBFB9D8AA037C60A8FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESTKitGuildWarCoreData/Pods-RESTKitGuildWarCoreData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDC473DF1A2B00C900FD1B73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC473FD1A2B00CA00FD1B73 /* ViewController.m in Sources */,
+				EDB516F71A2B58B300AD987A /* ItemRK.m in Sources */,
+				EDC474381A2B02DC00FD1B73 /* InfixUpgradeRK.m in Sources */,
+				EDB516FA1A2B58DE00AD987A /* WeaponRK.m in Sources */,
+				EDC474411A2B06B500FD1B73 /* MappingProvider.m in Sources */,
 				EDC473F71A2B00CA00FD1B73 /* AppDelegate.m in Sources */,
+				EDC474461A2B079500FD1B73 /* BaseObjectManager.m in Sources */,
+				EDC4744A1A2B3C2900FD1B73 /* ResponseDescriptorProvider.m in Sources */,
+				EDC4742E1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodeld in Sources */,
+				EDC474321A2B02DA00FD1B73 /* AttributeRK.m in Sources */,
+				EDC4743E1A2B030000FD1B73 /* RKBaseObjectManager.m in Sources */,
+				EDC4742A1A2B029A00FD1B73 /* MainViewController.m in Sources */,
 				EDC473F31A2B00CA00FD1B73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +582,7 @@
 		};
 		EDC474161A2B00CB00FD1B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AEAAA3D85CE1A199A55CF2 /* Pods-RESTKitGuildWarCoreData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +596,7 @@
 		};
 		EDC474171A2B00CB00FD1B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA06E184E92B104B1A1D56D8 /* Pods-RESTKitGuildWarCoreData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +667,7 @@
 				EDC474171A2B00CB00FD1B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDC474181A2B00CB00FD1B73 /* Build configuration list for PBXNativeTarget "RESTKitGuildWarCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -464,8 +676,22 @@
 				EDC4741A1A2B00CB00FD1B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDC4742C1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDC4742D1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodel */,
+			);
+			currentVersion = EDC4742D1A2B02B500FD1B73 /* GuildWarDataBase.xcdatamodel */;
+			path = GuildWarDataBase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EDC473DB1A2B00C900FD1B73 /* Project object */;
 }

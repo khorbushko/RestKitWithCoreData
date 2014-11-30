@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RESTKitGuildWarCoreData_RKValueTransformers : NSObject
+@end
+@implementation PodsDummy_Pods_RESTKitGuildWarCoreData_RKValueTransformers
+@end
